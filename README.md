@@ -6,7 +6,6 @@ The application combines data preprocessing, feature engineering, machine learni
 
 ---
 
-# 🎥 Demo
 
 ### Full Application Walkthrough
 
@@ -230,6 +229,25 @@ Supported Cities:
 
 ---
 
+# 📈 Model Performance
+
+Four regression algorithms were evaluated to identify the most suitable model for property price prediction.
+
+| Model                   | R² Score   | Adjusted R² |
+| ----------------------- | ---------- | ----------- |
+| Random Forest Regressor | **0.5745** | **0.5536**  |
+| Decision Tree Regressor | 0.5324     | 0.5094      |
+| KNN Regressor           | 0.4155     | 0.3867      |
+| Linear Regression       | -1.9551    | -2.1007     |
+
+### Model Selection
+
+Random Forest Regressor achieved the highest R² and Adjusted R² scores among all evaluated models and was therefore selected as the final deployment model.
+
+The model captures approximately 57% of the variance in property prices, outperforming Decision Tree, KNN, and Linear Regression models on the dataset.
+
+---
+
 # 🚀 Installation
 
 Clone the repository:
@@ -271,7 +289,7 @@ streamlit run app.py
 
 # 👨‍💻 Author
 
-### Natam Sravan
+### Sravan
 
 Aspiring Data Analyst & Machine Learning Engineer
 
