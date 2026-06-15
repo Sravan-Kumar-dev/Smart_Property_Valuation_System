@@ -279,11 +279,13 @@ streamlit run app.py
 # 🎯 Future Improvements
 
 - Hyperparameter Optimization
-- Advanced Price Trend Analysis
 - Property Recommendation System
+- Price trend forecasting
+- Cloud deployment with Streamlit Cloud or AWS
 - Interactive City-Level Dashboards
-- Enhanced Geospatial Analytics
 - Model Performance Monitoring
+- Advanced location intelligence using GIS
+
 
 ---
 
